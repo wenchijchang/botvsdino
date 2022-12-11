@@ -12,4 +12,4 @@ class Robot:
         if dinosaur.health > 0:
             print(f'{self.name} attacked {dinosaur.name} with {self.active_weapon.name} for {self.active_weapon.attack_power} damage!\n{dinosaur.name} has {dinosaur.health} remaining!')
         else:
-            print(f'{self.name} attached {dinosaur.name} with {self.active_weapon.name} for {self.active_weapon.attack_power} damage!\n{dinosaur.name} has 0 health remaining!')
+            print(f'{self.name} attacked {dinosaur.name} with {self.active_weapon.name} for {self.active_weapon.attack_power} damage!\n{dinosaur.name} has 0 health remaining!')
