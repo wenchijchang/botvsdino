@@ -8,7 +8,7 @@ class Battlefield:
 
     def greeting(self):
         print("""
-        Welcome to Robot V.S. Dianosaur!Let the battle begin!
+        Welcome to Robot versus Dianosaur!Let the battle begin!
         """)
 
     def battle_phase(self):
