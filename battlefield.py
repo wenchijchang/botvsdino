@@ -16,8 +16,7 @@ class Battlefield:
             self.robot.attack(self.dinosaur)
             if self.dinosaur.health > 0:
                 self.dinosaur.attack(self.robot)
-            else:
-                print(f'{self.dinosaur.name} has 0 health remaining!')
+        
 
     def display_winner(self):
         print(f'''
